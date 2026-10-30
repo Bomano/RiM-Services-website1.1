@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Get in touch with RiM Services: email, WhatsApp and LinkedIn contact details for our Nairobi-based digital solutions studio.">
+<meta name="theme-color" content="#fbfbf9">
+<title>Contact — RiM Services</title>
+<link rel="icon" href="img/favicon.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="cursor"></div>
+<div class="progress"></div>
+
+<header class="nav solid" id="nav">
+<a class="brand" href="index.html#home">
+<img class="brand-mark" src="img/logo-mark.png" alt="RiM Services logo">
+</a>
+<div class="nav-right">
+<nav>
+<a href="index.html#home">Home</a>
+<a href="index.html#services">Services</a>
+<a href="index.html#work">Work</a>
+<a href="index.html#team">Team</a>
+<a href="contact.html" class="active">Contact</a>
+</nav>
+<button class="menu" aria-label="Open navigation" aria-expanded="false"><span></span><span></span><span></span></button>
+</div>
+</header>
+
+<main>
+<section class="page-hero">
+<span class="section-tag">GET IN TOUCH</span>
+<h1>Let's build<br><em>something.</em></h1>
+<p>Tell us what you're trying to build, improve or automate. We usually reply within one business day.</p>
+</section>
+
+<section class="page-body">
+<div class="page-grid">
+
+<div class="info-card">
+<h3>EMAIL</h3>
+<a href="mailto:rimservices.ke@gmail.com">rimservices.ke@gmail.com</a>
+<h3 style="margin-top:28px">WHATSAPP — KENYA</h3>
+<a href="https://wa.me/254111635996" target="_blank" rel="noopener">+254 111 635 996</a>
+<h3 style="margin-top:28px">WHATSAPP — AUSTRALIA</h3>
+<a href="https://wa.me/61434408749" target="_blank" rel="noopener">+61 434 408 749</a>
+<h3 style="margin-top:28px">LOCATIONS</h3>
+<p>Nairobi, Kenya</p>
+<p>Brisbane, Australia</p>
+<h3 style="margin-top:28px">FOLLOW</h3>
+<a href="https://www.linkedin.com/company/rimservicesorg/" target="_blank" rel="noopener">LinkedIn — RiM Services</a>
+</div>
+
+<form class="form-group" action="mailto:rimservices.ke@gmail.com" method="post" enctype="text/plain">
+<div class="reason-toggle"><label><input type="radio" name="reason" value="hire" checked><span>Hire Us</span></label><label><input type="radio" name="reason" value="join"><span>Join the Team</span></label></div>
+<label for="name">Full Name</label>
+<input type="text" id="name" name="name" required>
+<label for="email">Email</label>
+<input type="email" id="email" name="email" required>
+<label for="service">What do you need?</label>
+<input type="text" id="service" name="service" placeholder="Website, software, CRM, GIS mapping..." required>
+<label for="message">Message</label>
+<input type="text" id="message" name="message" required>
+<input type="submit" value="Send Message" class="submit-button">
+</form>
+
+</div>
+
+<a class="back-link" href="index.html">Back to home</a>
+</section>
+</main>
+
+<footer class="wrap">
+<div class="foot-bottom">
+<span>&copy; <b id="year"></b> RiM Services. All rights reserved.</span>
+</div>
+</footer>
+
+<div class="modal" id="contactModal" aria-hidden="true">
+<div class="modal-box" role="dialog" aria-modal="true" aria-labelledby="contact-modal-title">
+<button class="modal-close" aria-label="Close">&times;</button>
+<label>GET IN TOUCH</label>
+<h2 id="contact-modal-title">Let's build <em>something.</em></h2>
+<p>Tell us what you're trying to build, improve or automate. We usually reply within one business day.</p>
+<form class="form-group" action="mailto:rimservices.ke@gmail.com" method="post" enctype="text/plain">
+<div class="reason-toggle"><label><input type="radio" name="reason" value="hire" checked><span>Hire Us</span></label><label><input type="radio" name="reason" value="join"><span>Join the Team</span></label></div>
+<label for="cm-name">Full Name</label>
+<input type="text" id="cm-name" name="name" required>
+<label for="cm-email">Email</label>
+<input type="email" id="cm-email" name="email" required>
+<label for="cm-service">What do you need?</label>
+<input type="text" id="cm-service" name="service" placeholder="Website, software, CRM, GIS mapping..." required>
+<label for="cm-message">Message</label>
+<input type="text" id="cm-message" name="message" required>
+<input type="submit" value="Send Message" class="submit-button">
+</form>
+</div>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
